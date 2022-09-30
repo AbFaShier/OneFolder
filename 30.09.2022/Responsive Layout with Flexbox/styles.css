@@ -1,0 +1,57 @@
+header, section {
+    margin: 0;
+    padding: 20px;
+    border: 1px solid #000000;
+    color: #ffffff;
+}
+
+main {
+    background: #000000;
+}
+
+header {
+    background: #03a9f4;
+}
+
+.feature1 {
+    background: #d22b1f;
+    height: 200px;
+}
+
+.feature2 {
+    background: #129a22;
+    height: 200px;
+}
+
+.feature3 {
+    border: 1px solid #000000;
+    background: #673ab7;
+    height: 200px;
+}
+
+.signup {
+    border: 1px solid #000000;
+    background: #616161;
+}
+.content{
+    background-color:darkolivegreen;
+}
+p{
+    text-align: center;
+}
+
+@media screen and (min-width: 992px){
+    .flex-container {
+        display: flex;
+    }
+    div section{
+        flex: 1;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width:991px){
+    .tablet-view{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
