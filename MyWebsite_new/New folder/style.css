@@ -1,0 +1,394 @@
+*{
+  margin:0;
+  padding: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html{
+  font-size: calc(15px + 0.390625vw);
+}
+
+body{
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family:'Assistant', sans-serif;
+  background-color: #c7e1d9;
+  
+  }
+
+header, footer{
+  background-color:#00434d;
+  min-height: fit-content;
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color:white;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+header .picH1 img {
+  width: 17.5%;
+  height: 17.5%;
+  border-radius: 50px;
+}
+
+header .picH1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: 430px;
+  margin-left:1vw;
+}
+
+header h1{
+  font-size:2vw;
+  height: fit-content;
+  text-align: center;
+  margin-left: 10px;
+}
+
+header .emailLink {
+  padding: 8px 0 0 0;
+  text-align: center;
+  max-width: 430px;
+  margin-right: 1vw;
+}
+
+header .emailLink .emailto{
+  background-color: darkslategrey;
+  color: #ffffff;
+  padding:5px 10px 5px 10px;
+  display:block;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 1.2vmax;
+}
+
+header .emailLink svg{
+  width:8rem;
+  height: 2.5rem;
+  object-fit:fill;
+  color: #c7e1d9;
+}
+
+header li {
+  list-style:none;
+  margin-left: 3px;
+}
+
+header ul{
+  min-width:fit-content;
+  display: flex;
+  padding: 0;
+}
+
+main{
+  background-color: #c7e1d9;
+  height: fit-content;
+  max-width: 65vw;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+  margin: 4em 0;
+}
+
+.h2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.h2 h2{
+
+  font-family: 'Josefin Sans', sans-serif;
+  font-size:8vw;
+  width: fit-content;
+  }
+
+.h22{
+  margin-left: 12rem;
+}
+
+.h2 > p{
+
+  max-width: 60%;
+  margin:1rem 0 0 0;
+  text-align:justify;
+  font-size: 1.35rem;
+  }
+
+main .toolbox img, main .toolbox i{
+  width: 150px;
+  height: 150px;
+  font-size: 150px;
+  border-radius: 50px;
+}
+
+main h2{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.fa-solid{
+  font-size: 125px;
+}
+
+.toolbox{
+  display: flex;
+  flex-wrap: wrap;
+  width:700px;
+  align-items: flex-end;
+}
+.tools{
+  margin:10px ;
+}
+
+.tools p{
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.toolbox-heading{
+flex-basis: 100%;
+text-align: center;
+margin-bottom: 1em;
+}
+
+.jobs {
+
+  width: 80%;
+  height: auto;
+}
+
+.jobs h3 {
+    font-size: 0.85rem;
+}
+
+.jobs p{
+  width: 70%;
+  font-size: 1.2rem;
+}
+
+.job1{
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 30vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.job1 img{
+  width: 180px;
+  height: 180px;
+  border-radius: 50px;
+  }
+
+.job1 h3{
+  width: 180px;
+  text-align: center;
+}
+
+form {
+  box-sizing: border-box;
+  padding: 1rem 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin: 1rem 7.5rem;
+}
+
+.full-width {
+  grid-column: span 2;
+}
+
+button,
+textarea {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+input,
+textarea {
+  border: 1px solid #333;
+  background-color: white;
+  border-radius: 0.25rem;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  font: 1rem / 1 sans-serif;
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+}
+
+textarea {
+  min-height: 10rem;
+}
+
+.large-label {
+  display: inline-block;
+  font: bold 1rem;
+  margin-bottom: 0.5rem;
+}
+
+input::placeholder,
+textarea::placeholder {
+  opacity: 1; /* Firefox */
+  color: grey;
+
+}
+
+button {
+  
+  border-radius: 0.25rem;
+  cursor: pointer;
+  padding: 0.5rem 1.25rem;
+  border: 1px rebeccapurple solid;
+  margin-left: 42.5%;
+  }
+
+button[type="submit"] {
+  background-color: hsl(213, 73%, 50%);
+  color: white;
+  font-size: 1rem ;
+}
+
+button[type="submit"]:hover {
+  background-color: hsl(213, 73%, 40%);
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px hsl(213, 90%, 70%);
+}
+
+.form-title{
+  text-align: center;
+}
+
+footer{
+  box-shadow: 0 -14px 28px rgba(0,0,0,0.25), 0 -10px 10px rgba(0,0,0,0.22);
+}
+
+footer li{
+  list-style: none;
+}
+
+footer div, footer nav{
+  margin: 1em;
+  font-size: 0.8em;
+}
+
+footer nav{
+  text-align: right;
+}
+
+@media screen and (max-width:768px)  { 
+
+  header{
+    display:none;
+  }
+
+  main{
+    height: fit-content;
+    max-width: 100%;
+  }
+  .h2 > p{
+
+    max-width: 90%;
+    }
+
+  .h2 h2 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 8vw;
+    width: fit-content;
+    margin-left: -10px;
+  }
+
+  .toolbox{
+    width:fit-content;
+    align-items: center;
+    justify-content: center;
+  }
+
+  main .toolbox img, main .toolbox i{
+    width: 120px;
+    height: 120px;
+    font-size: 120px;
+    border-radius: 50px;
+  }
+
+.jobs {
+    width: 90%;
+    height:auto
+  }
+
+  .jobs p{
+    width: 60%;
+  }
+
+  .job1 img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+    }
+
+  .job1{
+    max-height:330px;
+  }
+
+  form {
+    padding: 0.1rem 0.1rem;
+    margin: 0.3rem 4rem;
+}
+
+}
+
+@media screen and (max-width:1024px){
+
+  body{
+    background-color: #c7e1d9;
+  }
+
+  .job1{
+    height:400px;
+  }
+
+  .job1 img{
+    margin: 0 1em;
+    }
+
+  form {
+    padding: 0.1rem 0.1rem;
+    margin: 0.3rem 4rem;
+}
+
+}
+

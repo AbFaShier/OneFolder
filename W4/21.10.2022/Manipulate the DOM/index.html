@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="myHeading">Hello</h1>
+    <p id="myPara">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro id quasi laboriosam ratione dolorum. In possimus nulla vitae iure natus amet, iste architecto quod rerum assumenda magnam magni quia maiores?</p>
+    <a id="my-A" href="">#</a>
+
+    <script>
+
+//h1 variable write a loop with 2 iterations, always adding the number of the iteration to the content of the tag (after the existing content).
+ let myH1 = document.getElementById("myHeading")
+ let i = 0;
+ while (i<2) {
+     myH1.textContent += " " + i + " " ;
+     i++
+ }
+//For the p variable write a loop with 4 iterations, always adding the number of the iteration to the content of the tag (before the existing content).
+ let myPara = document.getElementById("myPara")
+ let i2 =0
+ while (i2<4) {
+     myPara.insertAdjacentText("afterbegin", + " " + i2 + " " )  ;
+     i2++
+ }
+//For the a variable write a loop with 7 iterations, always replacing the content of the tag with the number of the iteration.
+ let myA = document.getElementById("my-A")
+ let i3 =0
+ while (i3<7) {
+     myA.textContent = i3;
+     i3++
+ }
+
+    </script>
+
+</body>
+</html>

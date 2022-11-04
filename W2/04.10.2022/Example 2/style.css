@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+body{
+    background-color: grey;
+}
+
+main{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.white{
+    /* width:70%;
+    background-color: white; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    /* margin-top: 50px; */
+
+    background: white;
+    margin: 5rem auto;
+    max-width: 112rem;
+    padding: 5rem 2rem;
+    width: 70%
+}
+
+header{
+    text-align: center;
+    width: 100%;
+    padding:5%;
+    font-size:140%;
+}
+
+section{
+    max-width: 50%;
+}
+
+img{
+    max-width: 80%;
+}

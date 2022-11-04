@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto ipsam, sunt ab dolore atque placeat id ex odio vel, necessitatibus rem incidunt facilis alias. Voluptatibus officiis aspernatur illum assumenda asperiores.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae debitis natus amet ad sit itaque velit laboriosam optio ipsam qui deleniti, autem, fuga ullam impedit quod nulla. Cupiditate, ad facilis.</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci, amet quibusdam. Consequuntur explicabo labore dolorem blanditiis illo nisi laudantium. Mollitia consectetur, unde facere qui id quae hic. Temporibus, illum pariatur!</p>
+    <h1 id="myID">Hello</h1>
+    
+    <ul>
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+    </ul>
+
+    <div id="demo">
+        <h1>Hello</h1>
+        <h2>World</h2>
+        <h3>Good</h3>
+        <h4>morning</h4>
+    </div>
+    
+    
+    <img id="picture" src="./Free-whatsapp-dp-Pics-Images-With-Joker.jpg" alt="">
+    
+    <script>
+
+
+        let span = document.createElement("span");
+        let node = document.createTextNode("Some new text");
+        let parent = document.querySelector("#demo");
+        span.appendChild(node);
+        parent.appendChild(span);
+
+        let el = document.querySelector("#picture");
+        el.style.src="./Nice-Whatsapp-DP-Pics-Download-3.jpg";
+        console.log(el);
+
+        let el1 = document.querySelector("#paragraph");
+        console.log(el1);
+
+    </script>
+</body>
+</html>

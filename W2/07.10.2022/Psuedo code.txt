@@ -1,0 +1,84 @@
+Variable for the payment
+variable for the tip
+
+Check if the payment is a number,
+Check if the payment is not more than 10digits
+
+If the conditinos are ok. 
+Add 15% to the bill and save it to the tip variable
+
+show both the tip and the payment. 
+Sum the both.
+If its needed for rounding. round it. 
+Show the result
+
+---------------------------------------------------------------
+Exercise 1
+---------------------------------------------------------------
+Variable for UserName
+
+Prompt a message so the user could enter his/her name.
+The name will be saved in UserName.
+*Allow only letter from A-Z and spaces.
+*If it is something else beside above show message. "Please enter a valid name".
+
+At the end Call the print function. 
+In print function we use Hello + UserName
+The output will show Hello with UserName beside each other
+
+#Test#
+User inputs "Yusuf"
+Output is "Hello Yusuf"
+
+User inputs "Muhammad3"
+Output is "Please enter a valid name"
+
+---------------------------------------------------------------
+Exercise 2
+---------------------------------------------------------------
+Input string for the user = UserString
+Count string characters = CountString
+
+Prompts a message to the user and asks for the user to enter a string. 
+It will be saved in UserString.
+*Do not accept empty string (Shows a message to enter a string of characters")
+
+Use a function which would count the character of UserString
+The result will be saved in CountString.
+
+At the end give a message which shows UserString and CountString
+
+#Test#
+User inputs "Yusuf"
+Output is Yosuf and 5
+
+User inputs "Muhammad3"
+Output is Muhammad3 and 9
+
+----------------------------------------------------------------
+Exercise 3
+----------------------------------------------------------------
+Input Text for quote = quoteText
+Input Text for author = authorText
+
+Prompts a message to enter quote and author's name
+Saves the quote to quoteText and author's name to authorText
+*Do not accept empty quote or author (Shows a message to enter author or quote")
+*for the author's name allow only letter from A-Z and spaces.
+
+
+Then gives the messages with like this [authorText] says, "[quoteText]"
+
+#Test#
+User inputs in quote "I love blue sky"
+User inputs in author "Yusuf"
+Output message is "Yusuf says, "I love blue sky".
+
+-----------------------------------------------------------------
+Exercise 4
+-----------------------------------------------------------------
+
+
+
+
+
